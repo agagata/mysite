@@ -1,28 +1,76 @@
-{% extends "base.html" %}
-{% load i18n %}
+<!DOCTYPE html>
+<html lang="en" class="gr__getbootstrap_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  {% load pages_tags mezzanine_tags i18n staticfiles %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Agata Grdal">
+    <link rel="icon" href="{% static "img/favicon.png" %}">
 
-{% block meta_title %}{% trans "Home" %}{% endblock %}
-{% block title %}{% trans "Home" %}{% endblock %}
+    <title>Agata Grdal</title>
 
-{% block breadcrumb_menu %}
-<li class="active">{% trans "Home" %}</li>
-{% endblock %}
+    {% compress css %}
+    <link rel="stylesheet" href="{% static "css/bootstrap.css" %}">
+    <link rel="stylesheet" href="{% static "css/main.css" %}">
+    {% endcompress %}
 
-{% block main %}
-{% blocktrans %}
-<h2>Hello!</h2>
-<img src="/static/img/agata.jpg">
-<p>
-    I'm Agata and I live in Wrocław, Poland.
-</p>
-<p>
-    I try to earn money as a programmer. My favourite language is Python, but I'mals
-</p>
-<p>
-    Sometimes, when I have something interesting to say, and speak at meetings.
-</p>
-<p>
-    I have to be honest to you. I'm not so busy and important. This page exists because I wanted to learn heroku and see how hard it is to set up my own domain (you know what? it's not hard at all!).
-</p>
-{% endblocktrans %}
-{% endblock %}
+    {% compress js %}
+    <script src="{% static "js/bootstrap.js" %}"></script>
+    <script src="{% static "js/bootstrap-extras.js" %}"></script>
+    {% endcompress %}
+
+  </head>
+
+  <body data-gr-c-s-loaded="true">
+
+    <!-- Navbar -->
+<div id="content">
+<nav  class="navbar">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li><a href="#">Main</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="https://github.com/agagata">Github</a></li>
+      <li><a href="https://twitter.com/AgataGrdal">Twitter</a></li>
+      <li><a href="mailto:agatagrdal@gmail.com">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+  <div class="container">
+    <div class="col-md-6">
+      <img class="img-responsive" src="{% static "img/agata.jpg" %}">
+    </div>
+    <div class="col-md-6">
+    <h2>Hello!</h2>
+      <p>I'm Agata and I live in Wrocław, Poland.</p>
+      <p>I have a bachelor degree in Mathematics, but for my Master studies I chose Computer Science. I am a Python enthusiast who also enjoys learning new skills and working with new technologies.</p>
+      <p>I care about others. That's why I gladly take part in many great iniciatives. I co-organized <a href="https://djangogirls.org/">Django Girls</a> workshops and <a href="http://www.meetup.com/wrocpy/">wroc.py</a> meetings. I also helped to bring <a href="http://2015.33degree.org/">33rd Degree 4 Charity</a> conference to Wrocław.</p>
+      <p>I like cats and potatoes.</p>
+    </div>
+  </div>
+
+<div id="logos">
+  <div class="container text-center">
+    <div id="items" class="col-md-12">
+      <a href="http://www.filmweb.pl/user/wielkistrasznypotwor"><img class="img-responsive" src="{% static "img/logo/filmweb.jpg" %}"></a>
+      <a href="https://www.goodreads.com/user/show/1578785-agata"><img class="img-responsive" src="{% static "img/logo/goodreads.png" %}"></a>
+      <a href="https://github.com/agagata"><img class="img-responsive" src="{% static "img/logo/github.png" %}"></a>
+      <a href="https://pl.linkedin.com/in/agata-grdal-82508189"><img class="img-responsive" src="{% static "img/logo/linkedin.png" %}"></a>
+    </div>
+  </div>
+</div>
+</div>
+
+<footer class="footer">
+  <div class="container text-center">
+    <p>
+      Powered by <a href="http://mezzanine.jupo.org">Mezzanine</a> and <a href="http://www.djangoproject.com">Django</a> | CSS inspired by <a href="http://minty-peach.livejournal.com/50955.html">Minty peach</a>
+    </p>
+  </div>
+</footer>
+
+
+</body></html>

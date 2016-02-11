@@ -1,0 +1,687 @@
+/* BY: Minty_Peach -- (http://minty_peach.livejournal.com)
+style -- Flexible Squares / s2
+account type: Free & Paid accounts
+DO NOT REMOVE THIS SECTION */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+BODY{
+margin: 30px 0px 30px 0px;
+background-color: #FFFFFF;
+background-image: url('');
+background-repeat: no-repeat;
+background-position: top-left;
+background-attachment: scroll;
+text-align: left;
+font-size: 16px;
+color: #8e8e8e;
+font-family: "Lato", sans-serif;
+}
+
+i, s, u {
+color: #aaaaaa;
+}
+
+a, a:link, a:visited {
+font-family: "verdana" Helvetica, sans-serif;
+color: #60969E;
+text-transform: lowercase;
+text-decoration: none;
+}
+
+a:hover{
+color: #aaaaaa;
+}
+
+blockquote {
+margin: 5px 25px 5px 25px;
+padding: 10px;
+color: #777777;
+font-size: 10px;
+border: 1px solid #bbbbbb;
+background: #f5f5f5;
+text-align: justify;
+line-height: 16px;
+}
+
+p, td {
+font-size: 10px;
+}
+
+code, kbd, pre, tt {
+font-family: monospace;
+}
+
+#content {
+width: 900px;
+margin-left: auto;
+margin-right: auto;
+padding: 0px;
+}
+
+#maincontent {
+margin: 25px 5px 5px 5px;
+background: #FDFDFD;
+}
+
+#sidebar {
+display: none;
+width: 200px;
+padding: 20px;
+margin-top: 25px;
+color: #777777;
+background-color: #FDFDFD;
+font-family: "verdana" Helvetica, sans-serif;
+font-size: 10px;
+line-height: 16px;
+text-align: justify;
+float: right;
+}
+
+div#sidebar a, div#sidebar a:link, div#sidebar a:visited {
+color: #D40000;
+text-decoration: none;
+}
+
+div#sidebar a:hover {
+text-decoration: none;
+color: #999;
+}
+
+.defaultuserpic {
+text-align: center;
+border-color: 10px solid #FEFEFE;
+}
+
+.sbarheader {
+padding: 0px 5px 0px 5px;
+}
+
+.sbarbody {
+padding: 0px 3px 0px 3px;
+}
+
+.sbarbody2 {
+padding: 0 6px 0 6px;
+}
+
+table.calendar {
+margin-right: auto;
+margin-left: auto;
+}
+
+.sbarcalendar {
+padding: 3px;
+border: 1px solid #ddd;
+background: #FEFEFE;
+text-align: center;
+font-family: "Verdana", Helvetica, sans-serif;
+color: #bbbbbb;
+font-size: 10px;
+}
+
+.sbarcalendarposts {
+padding: 3px;
+border: 1px solid #ccc;
+background: #eee;
+text-align: center;
+font-family: "Verdana", Helvetica, sans-serif;
+color: #EB8A00;
+font-size: 10px;
+}
+
+ul.sbarlist {
+margin-left: 0px;
+list-style: none;
+padding-left: 0px;
+}
+
+li.sbaritem {
+padding: 2px 3px 2px 13px;
+list-style: none;
+background-color: #FEFEFE;
+background-image: url('');
+background-repeat: repeat;
+border-bottom: 1px #cccccc solid;
+}
+
+li.sbaritem:hover {
+color: #000000;
+}
+
+li.sbartitle {
+list-style: none;
+margin-bottom: 2px;
+margin-top: 20px;
+text-align: left;
+font-weight: normal;
+padding-left: 1px;
+padding-bottom: 2px;
+color: #454545;
+font-family: "verdana" Helvetica, sans-serif;
+font-size: 8pt;
+border-bottom: 1px solid #cccccc;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+ul.ljtaglist li  {
+padding: 0px;
+margin: 5px;
+list-style: decimal-leading-zero;
+list-style-position: outside;
+}
+
+/****************************************************
+HEADER & FOOTER LINKS - NOT THE HEADERIMAGE
+**************************************************/
+
+#header {
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  background-color: transparent;
+  font-size: 8pt;
+  color: #FFFFFF;
+}
+
+#footer {
+  width: auto;
+  padding: 2px;
+  line-height: 10px;
+  text-align: center;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  background-color: transparent;
+  font-size: 8pt;
+  color: #FFFFFF;
+  z-index: 100;
+  clear: both;
+  }
+
+div#header a, div#header a:link, div#header a:visited {
+  color: #FFFFFF;
+  padding: 10px;
+  padding: 10px 10px 10px 14px;
+  font-size: 8pt;
+  text-transform: lowercase;
+  }
+
+div#footer a, div#footer a:link, div#footer a:visited {
+  color: #FFFFFF;
+  padding: 10px;
+  padding: 10px 10px 10px 14px;
+  font-size: 8pt;
+  text-transform: lowercase;
+  }
+
+div#header a:hover {
+  color: #FEFEFE;
+  padding: 10px 10px 10px 14px;
+  font-size: 8pt;
+  text-transform: lowercase;
+background: url('http://i132.photobucket.com/albums/q11/minty_peach/right.gif') 5px 13px no-repeat;
+  }
+
+div#footer a:hover {
+  color: #FEFEFE;
+  padding: 10px 10px 10px 14px;
+  font-size: 8pt;
+  text-transform: lowercase;
+background: url('http://i132.photobucket.com/albums/q11/minty_peach/right.gif') 5px 13px no-repeat;
+  }
+
+ul.navheader {
+  padding: 0 5px 0 5px;
+  margin: 0 0px 0 0px; }
+
+ul.navheader li {
+  display: inline;
+  list-style: none;
+  padding: 0;
+  }
+
+div#header li.view {
+  font-size: 8pt;
+  padding: 10px 10px 10px 14px;
+background: url('http://i132.photobucket.com/albums/q11/minty_peach/right.gif') 5px 13px no-repeat;
+  }
+
+div#footer li.viewing {
+  font-size: 8pt;
+  padding: 10px;
+  }
+
+#footer .viewing {
+  display:none;
+  }
+
+ul.navfooter {
+  padding: 0px;
+  margin: 0px;
+  }
+
+ul.navfooter li {
+  display: inline;
+  margin: 0 0px 0 0px;
+  }
+
+.clearfoot {
+  clear: both;
+  }
+
+ul.navfooter {
+padding: 0px;
+margin: 0px;
+}
+
+ul.navfooter li {
+display: inline;
+margin: 0 0px 0 0px;
+}
+
+
+/******************* title & subtitle *********************/
+
+
+.title	{
+display: none;
+}
+
+.subtitle {
+display: none;
+}
+
+
+/*********************************************** TAGS PAGE LAYOUT ******************************************/
+
+.ljtaglist {
+list-style-type: none;
+margin: -1px 20px 0px 20px;
+margin-left: 70px; width: 50%;
+text-transform: uppercase;
+text-align: left;
+}
+
+.ljtaglist li {
+border-bottom: 1px solid #cccccc;
+padding: 5px 2px 5px 20px;
+color: #888888;
+}
+
+H2 {
+margin: 30px 0px 10px 90px;
+text-align: left;
+padding: 2px 2px 2px 10px;
+line-height: 12px;
+font-weight: normal;
+font-style: italic;
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 0px;
+font-family: arial;
+color: #888888;
+background: url('') 0px 2px no-repeat;
+}
+
+
+/*********************************************** ENTRY, TAGS LIST, SUB CONTENT, EXTRA ******************************************/
+
+ul.ljtaglist {
+color: #bbb;
+font-family: "Tahoma", Helvetica, sans-serif;
+font-size: 8pt;
+padding: 8px 8px 8px 12px;
+text-align: left;
+margin-right: auto;
+margin-left: auto;
+padding: 35px;
+}
+
+.subcontent {
+padding: 35px;
+background: #FDFDFD;
+background-image: url('FLOWER BACKGROUND URL HERE');
+background-repeat: no-repeat;
+background-position: top-left;
+}
+
+.entry{
+margin: 5px 5px 5px 130px;
+padding: 5px;
+color: #555555;
+font-family: "verdana" Helvetica, sans-serif;
+font-size: 10px;
+line-height: 16px;
+text-align: justify;
+border-left: 1px solid #bbbbbb;
+}
+
+.entry ul li {
+padding-left: 0px;
+margin-left: 0px;
+list-style: decimal-leading-zero;
+list-style-position: outside;
+}
+
+.entry ol li {
+padding-left: 0px;
+margin-left: 0px;
+list-style: decimal-leading-zero;
+list-style-position: outside;
+}
+
+/*********************************************** USERPICS, FRIENDS PAGE USERPICS, DATE, SUBJECT &MORE ******************************************/
+
+.userpic {
+position: relative;
+float: left;
+padding: 5px;
+background: #FDFDFD;
+border: 1px solid #bbbbbb;
+margin-left: 4px;
+margin-top: 52px;
+z-index: 15;
+}
+
+.userpicfriends {
+position: relative;
+float: left;
+padding: 5px;
+border: 1px solid #bbbbbb;
+margin-left: 4px;
+margin-top: 52px;
+text-align: left;
+font-family: "Verdana", sans-serif;
+font-size: 8pt;
+z-index: 15;
+background-color: #FDFDFD !important;
+}
+
+.userpicfriends font {
+color: #454545 !important;
+text-transform: uppercase;
+}
+
+.userpicfriends br {
+display: block;
+height: 0;
+}
+
+.date {
+text-align: right;
+font-weight: normal;
+padding-bottom: 2px;
+padding-right: 10px;
+color: #aaaaaa;
+font-family: "arial" Helvetica, sans-serif;
+font-size: 10pt;
+text-transform: lowercase;
+}
+
+.subject {
+text-align: right;
+padding: 2px;
+color: #454545;
+font-family: "verdana" Helvetica, sans-serif;
+font-size: 7pt;
+text-transform: uppercase;
+letter-spacing: 1px;
+border-bottom: 1px solid #bbbbbb;
+}
+
+.subject a, .subject a:link, .subject a:visited {
+color: #EB8A00;
+text-transform: uppercase;
+}
+
+.subject a:hover {
+color: #999;
+}
+
+.datesubject {
+padding: 3px;
+}
+
+.currents, .currentmood, .currentmusic {
+font-family: arial;
+font-size: 10px;
+}
+
+.currents strong, .currentmood strong, .currentmusic .currentlocation, .ljtags strong {
+color: #999999;
+padding-left: 13px;
+margin-top: 35px;
+font-size: 10px;
+text-transform: lowercase;
+font-family: "arial" Helvetica, sans-serif;
+background: url('http://i132.photobucket.com/albums/q11/minty_peach/other-1.gif') 0px 0px no-repeat;
+}
+
+.ljtags {
+margin-top: 25px;
+margin-left: 1px;
+color: #777777;
+padding-left: 13px;
+text-transform: lowercase;
+font-family: "arial" Helvetica, sans-serif;
+background: url('http://i132.photobucket.com/albums/q11/minty_peach/tags.gif') 0px 2px no-repeat;
+}
+
+.ljtags a, .ljtags a:link, .ljtags a:visited {
+color: #ACB034;
+font-size: 7pt;
+text-transform: none;
+}
+
+.currentlocation a, .currentlocation a:link, .currentlocation a:visited {
+color: #ACB034;
+font-size: 7pt;
+text-transform: lowercase;
+}
+
+.currentlocation a:hover, .ljtags a:hover {
+color: #aaaaaa;
+text-transform: lowercase;
+text-decoration: none;
+}
+
+.comments {
+font-family: "Verdana", sans-serif;
+font-size: 10px;
+text-align: right;
+font-weight: none;
+padding: 4px;
+position: relative;
+color: #ffffff;
+top: 10px;
+border-top: 0px;
+background-color: #FEFEFE;
+background-image: url(' ');
+background-repeat: repeat;
+letter-spacing: 0px;
+}
+
+div.comments a, div.comments a:link, div.comments a:visited {
+color: #666666;
+padding: 5px 5px 5px 12px;
+text-transform: uppercase;
+background: url('http://i132.photobucket.com/albums/q11/minty_peach/rightd.png') 0px 6px no-repeat;
+}
+
+div.comments a:hover {
+color: #bbbbbb;
+background: url('http://i132.photobucket.com/albums/q11/minty_peach/right.gif') 0px 6px no-repeat;}
+}
+
+
+
+/***********************************************
+ARCHIVE PAGE/CALENDAR ******************************************/
+
+ul.year{
+text-align: center;
+padding: 4px 4px 4px 4px;
+border: 0px solid #454545;
+}
+
+ul.year li {
+color: #999999;
+display: inline;
+}
+
+table.yeartable {
+margin-left: auto;
+margin-right: auto;
+padding: 4px;
+border: 0px solid #454545;
+}
+
+table.yeartable td.yeardate, table.yeartable td.yearday {
+color: #888888;
+padding: 4px;
+border: 1px solid #999999;
+text-align: center;
+}
+
+table.yeartable td.yearday {
+background: #cccccc;
+border: 1px solid #aaaaaa;
+padding: 4px;
+text-align: center;
+}
+
+td.yearmonth {
+color: #999999;
+border-style: none;
+}
+
+
+
+/*********************************************** HEADER IMAGE ******************************************/
+
+.headerimage {
+position: relative;
+
+width: 0px;
+height: 0px;
+
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0px;
+background-image: url('');
+background-repeat: no-repeat;
+}
+
+.separator {
+height: 40px;
+background: #D1A700;
+}
+
+
+
+
+/*********************************************** COMMENT PAGES ******************************************/
+
+
+.clear {
+display: none;
+height: 15px;
+}
+
+.skiplinks {
+text-transform: lowercase;
+text-align: center;
+padding: 10px;
+color: #888888;
+border: 1px dashed #bbb;
+}
+
+.datesubjectcomment {
+background-color: #dddddd;
+padding: 5px;
+}
+
+.userpiccomment {
+position: relative;
+border: 2px solid #cccccc;
+background-color: #FEFEFE;
+top: -30px;
+left: 0px;
+padding: 5px;
+margin: 10px 10px -20px 10px;
+z-index: 15;
+float: left;
+}
+
+.box {
+border-style: solid;
+border-width: 1px 0px 0px 0px;
+border-color: #cccccc;
+padding: 10px;
+clear: right;
+}
+
+input, textarea {
+background-color: #dddddd;
+color: #555555;
+}
+
+textarea.textbox  {
+  width: 95% !important;
+   }
+
+.reply{
+position: relative;
+margin: 5px 5px 5px 5px;
+padding: 5px 5px 5px 5px;
+text-align: left;
+font-family: "tahoma";
+font-size: 10px;
+line-height: 125%;
+color: #EB8A00;
+}
+
+.replytosubject {
+font-weight: bold;
+}
+
+.commentreply {
+position: relative;
+margin: 10px;
+font-size: 10px;
+font-family: "tahoma";
+color: #999;
+}
+
+.commentbox {
+border-color: #cccccc;
+border-width: 1px;
+border-style: solid;
+padding: 10px;
+margin: 10px;
+}
+
+.datesubjectcomment a:link, .datesubjectcomment a:visited {
+color: #EB8A00;
+}
+
+.datesubjectcomment a:hover {
+color: #999999;
+}
+
+.commentboxpartial {
+border-color: #cccccc;
+border-width: 1px;
+border-style: dotted;
+padding: 10px;
+margin: 10px;
+}
+
+.commentinfo {
+margin-top: 10px;
+width: 100%;
+}
